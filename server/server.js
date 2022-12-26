@@ -6,7 +6,7 @@ import { Configuration, OpenAIApi } from 'openai';
 dotenv.config();
 
 const configuration = new Configuration({
-    apiKey: process.env.OPEN_API_KEY
+    apiKey: "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"
 });
 
 const openai = new OpenAIApi(configuration);
@@ -23,10 +23,10 @@ app.get('/', async (req, res) => {
 
 app.post('/', async (req, res) => {
     try {
-        const promt = req.body.prompt;
+        const prompt = req.body.prompt;
 
         const response = await openai.createCompletion({
-            model: "text-devinci-003",
+            model: "text-davinci-003",
             prompt: `${prompt}`,
             temperature: 0,
             max_tokens: 3000,
