@@ -1,2 +1,2 @@
 # ChatGPT application practice
-![Open AI CodeGPT](https://i.ibb.co/LS4DRhb/image-257.png)
+![Open AI CodeGPT](https://raw.githubusercontent.com/md-rabiul-hasan/chatgpt/main/ss.png)
